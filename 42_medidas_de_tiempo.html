@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>4.2. Medidas de tiempo | La salud nos importa </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Raquel González Alfonso" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<link rel="stylesheet" type="text/css" href="geogebra-activity.css" />
+<script type="text/javascript" src="geogebra-activity.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { fonts: ["TeX"] }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<script type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default">
+</script>
+
+
+<style>
+  .udl-btn {border-radius: 5px; font-size: 12pt;}
+ article.iDevice_wrapper > p.toggle-idevice {display: none;}
+ section.exe-udlContent-block img.contenido { max-width: 97% !important;margin: 5px;box-sizing: border-box;border-radius: 5px;border: 2px solid black;}
+ div.iDevice > div.iDevice_content img.contenido { max-width: 95% !important;border-radius: 0.3em; box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 5px; margin: 5px;}
+ @media (max-width: 500px) { .imagenFloat300 { width: 100%; margin: 5px 0px 10px 0px; } }
+ div.exe-udlContent-content-block ul { overflow: hidden; }
+ div.exe-udlContent-content-block ol { overflow: hidden; }
+ article.exe-udlContent-content-simplified p { margin-bottom: 1em; line-height: 24pt; font-size: 14pt;}
+ article.exe-udlContent-content-simplified span { margin-bottom: 1em; line-height: 24pt; font-size: 14pt;}
+ article.exe-udlContent-content-simplified li,ol,ul { margin-bottom: 1em; line-height: 24pt; font-size: 14pt;}
+ article.exe-udlContent-content-simplified img { margin: 10px;}
+ .definition-tt {font-weight: bold;}
+ .dImgTxtCen {display: flex; align-items: center;margin: 5px;}
+ .imgTxtCen {flex-shrink: 0;}
+ .iDeviceTitle {top: auto;}
+ img[style*="float: left"] { margin-right: 10px;margin-bottom: 5px;}
+ img[style*="float:left"] { margin-right: 10px;margin-bottom: 5px;}
+ img[style*="float: right"] { margin-left: 10px;margin-bottom: 5px;}
+ img[style*="float:right"] { margin-left: 10px;margin-bottom: 5px;}
+ div.tabla-centro {overflow-x: auto; justify-content: center;}
+ div.tabla {display: table; margin: 0 auto; padding: 0;table-layout: fixed;align-self: center;}
+ div.tabla-fila {display: table-row; margin: 0; padding: 0;}
+ div.tabla-celda {display: table-cell; margin: 0; padding: 1px; border: 1px solid #000; text-align: center; vertical-align: middle;}
+ div.tabla-celdaSinBorde {display: table-cell; margin: 0; padding: 3px; text-align: center; vertical-align: middle;}
+ div.superindice {display: inline-block; vertical-align: top; position: relative; text-align: center;}
+ div.creditos {display: flex;align-items: center;justify-content: center;flex-wrap: wrap; font-size: 10pt;}
+ div.creditos figure {text-align: center;margin: 2px;}
+ div.creditos img {max-width: 200px !important;max-height: 200px !important;border: 2px solid black;border-radius: 4px;background-color: white;}
+ div.creditos figcaption {width: 200px;text-align: left;margin: 0 auto;white-space: pre-line; word-wrap: break-word;}
+ img.diccionario {box-sizing: content-box;border: 1px solid #cc6715;border-radius: 5px;margin-bottom: 10px;background-color: white;}
+ img.bocadillo {box-sizing: content-box;border: 1px solid #f1d031;border-radius: 5px;background-color: white;}
+ div.inputResponsive input {width:65% !important;}
+ div.variasFiguras {text-align: center; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;}
+</style>
+
+</head>
+<body class="exe-web-site" id="exe-node-164"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">La salud nos importa</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">La salud nos importa</a></li>
+   <li><a href="1_nos_ponemos_en_marcha.html" class="no-ch">1. Nos ponemos en marcha</a></li>
+   <li><a href="2_calentamiento.html" class="no-ch">2. Calentamiento</a></li>
+   <li><a href="3_empezar_a_realizar_deporte.html" class="no-ch">3. Empezar a realizar deporte</a></li>
+   <li class="current-page-parent"><a href="4_matemtica_deportiva.html" class="current-page-parent daddy">4. Matemática deportiva</a>
+   <ul>
+      <li><a href="41_medidas_de_longitud_y_masa.html" class="no-ch">4.1. Medidas de longitud y masa</a></li>
+      <li id="active"><a href="42_medidas_de_tiempo.html" class="active no-ch">4.2. Medidas de tiempo</a></li>
+   </ul>
+   </li>
+   <li><a href="5_vuestros_diseos.html" class="daddy">5. Vuestros diseños</a>
+   <ul class="other-section">
+      <li><a href="51_creamos_circuitos.html" class="no-ch">5.1. Creamos circuitos</a></li>
+      <li><a href="52_presentacin.html" class="no-ch">5.2. Presentación</a></li>
+   </ul>
+   </li>
+   <li><a href="6_vuelta_a_la_calma.html" class="no-ch">6. Vuelta a la calma</a></li>
+   <li><a href="7_crditos.html" class="no-ch">7. Créditos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="41_medidas_de_longitud_y_masa.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>7</strong> de <strong>12</strong></span> <span class="sep">| </span><a href="5_vuestros_diseos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">4.2. Medidas de tiempo</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id511">
+<div class="iDevice emphasis0" >
+<div id="ta511_626_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>
+<script type="text/javascript"> 
+  $(window).load(function(){
+    $.each([2], function(index , value ) {
+      $("p.toggle-idevice a").eq(value).click();
+    })
+  });
+</script>
+</p>
+<p><a href="ILU_MAT5PRIM_REA4_Subpagina42_medimos_el_tiempo.jpg" rel="lightbox"><img src="ILU_MAT5PRIM_REA4_Subpagina42_medimos_el_tiempo.jpg" alt="Del número decimal al sexagesimal " title="Retor dice: " medimos="" el="" tiempo="" width="250" height="188" style="float: left; margin-right: 10px; margin-left: 10px;"></a> <br><br></p>
+<p><span style="font-size: 12pt;">Para poder realizar vuestro panel/web es necesario que aprendas a manejar las medidas del tiempo.</span></p>
+<p><span style="font-size: 12pt;">¡Ánimo! ¡Será muy divertido!</span></p></div><article class="exe-udlContent-content-simplified js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Lectura facilitada</h2></header><p><span style="font-size: 14pt;">Para que puedes hacer el Panel/Web</span></p>
+<p><span style="font-size: 14pt;">Necesitarás aprender las medidas del tiempo</span></p>
+<p><span style="font-size: 14pt;">¡Ánimo, será divertido!</span></p><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id492">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">1. Escalera de tiempo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta492_623_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><span style="font-size: 12pt;">Las unidades de medidas que utilizamos para medir el tiempo son : <strong>las horas, los minutos y los segundos</strong>.&nbsp;</span></p>
+<p><span style="font-size: 12pt;">Para hacer cálculos con estas unidades se utiliza el sistema sexagesimal . Llamado así porque&nbsp;</span><span style="font-size: 12pt;">sus unidades aumentan o disminuyen de 60 en 60. En vez de 100 en 100 como en el sistema decimal.</span></p>
+<p><span style="font-size: 12pt;"><a href="Horas_propia.png" rel="lightbox"><img src="Horas_propia.png" alt="Muestra un esquema de cambio de unidades de tiempo" width="568" height="246" style="display: block; margin-left: auto; margin-right: auto;" title="Unidades de tiempo"></a></span></p>
+<p><span style="font-size: 12pt;">Al igual que hacíamos con el Sistema Métrico Decimal es importante utilizar una tabla para hacer las conversiones.</span></p>
+<p><span style="font-size: 12pt;">Para expresar las medidas del tiempo podemos utilizar una forma compleja, con varias unidades o incompleja con una sola unidad.</span></p>
+<p><a href="Compleja__propia.png" rel="lightbox"><img src="Compleja__propia.png" alt="Muestra un esquema de cambio de unidades de tiempo de forma compleja e incompleja" width="534" height="172" style="display: block; margin-left: auto; margin-right: auto;" title="Cambio de unidades de tiempo"></a></p></div><article class="exe-udlContent-content-simplified js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Lectura facilitada</h2></header><p><span style="font-size: 14pt;">Las unidades que vas a utilizar para medir, son:</span></p>
+<ul>
+<li><strong><span style="font-size: 14pt;">las horas</span></strong></li>
+<li><strong><span style="font-size: 14pt;">los minutos</span></strong></li>
+<li><strong><span style="font-size: 14pt;">los segundos. </span></strong><br><span style="font-size: 14pt;"></span></li>
+</ul>
+<p><span style="font-size: 14pt;">Utilizarás para esto el sistema sexagesimal.</span></p>
+<p><span style="font-size: 14pt;">Se llama así porque  aumenta o disminuye</span></p>
+<p><span style="font-size: 14pt;">De <strong>60 </strong>en <strong>60</strong>, en lugar de 100 en 100</span><span style="font-size: 12pt;"></span><span style="font-size: 12pt;"></span></p>
+
+<p><span style="font-size: 12pt;"><a href="Horas_propia.png" rel="lightbox"><img src="Horas_propia.png" alt="Muestra un esquema de cambio de unidades de tiempo" width="568" height="246" style="display: block; margin-left: auto; margin-right: auto;" title="Unidades de tiempo"></a></span></p>
+<p><span style="font-size: 14pt;">Es importante usar la tabla</span></p>
+<p><span style="font-size: 14pt;">Para convertir de una unidad a otra.</span></p>
+<p><span style="font-size: 14pt;">Para expresar el tiempo</span></p>
+<p><span style="font-size: 14pt;">Podemos hacerlo:</span></p>
+<ul>
+<li><span style="font-size: 14pt;">de forma compleja: con una sola unidad</span></li>
+<li><span style="font-size: 14pt;">de forma incompleja: con varias unidades</span></li>
+</ul>
+<p><a href="Compleja__propia.png" rel="lightbox"><img src="Compleja__propia.png" alt="Muestra un esquema de cambio de unidades de tiempo de forma compleja e incompleja" width="534" height="172" style="display: block; margin-left: auto; margin-right: auto;" title="Cambio de unidades de tiempo"></a></p><button class="exe-udlContent-alt-content-hide">Cerrar</button></article><article class="exe-udlContent-content-visual js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Apoyo visual</h2></header><p><img src="MEDIMOS_EL_TIEMPO.png" alt="Esquema de cómo medir el tiempo" title="Medimos el tiempo" width="560" height="315" style="display: block; margin-left: auto; margin-right: auto;"></p><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper GeoGebraIdevice em_iDevice em_iDevice_udl_rep_lee" id="id726">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">2. Trabaja el concepto aprendido</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta726_725_2" class="block iDevice_content">
+<div class="auto-geogebra auto-geogebra-KQuhMv3v auto-geogebra-width-675 auto-geogebra-height-417 language-es ShowAuthor0 auto-geogebra-scale-100"><div class="auto-geogebra-instructions"><p>Practica con los conceptos aprendido usando el siguiente geogebra.</p></div><p><a href="https://www.geogebra.org/m/KQuhMv3v" target="_blank">https://www.geogebra.org/m/KQuhMv3v (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">Javier%20Cayetano%20Rodr%EDguez,https%3A//ggbm.at/8812563,Unidades%20del%20Sistema%20Sexagesimal,0,Autor%EDa</div><div class="auto-geogebra-extra-content"><table border="1" style="height: 142px; width: 70.3876%; background-color: #d3edde; margin-left: auto; margin-right: auto;" height="142">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt;"><span style="font-family: Arial; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Ejemplo</span><span style="font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">: Pasar 2h 10 m 20s </span></span><span style="font-family: Arial; font-size: 12pt; white-space: pre-wrap;">de forma compleja a incompleja</span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">2h= 2x60x 60= 7.200 s</span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">10m= 10x60= 600 s</span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Suma= 7.200 + 600+10= 7.810s </span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; font-weight: bold; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">7.810s</span></p>
+</td>
+<td style="width: 50%;">
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt;"><span style="font-family: Arial; font-weight: bold; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Ejemplo: </span><span style="font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Pasar 1.500m </span></span><span style="font-family: Arial; font-size: 12pt; white-space: pre-wrap;">de forma incompleja a compleja</span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">1500: 60=  25 min</span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Pasar 13.200 m</span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">13.300 m : 60 =  221h </span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">221hx60= 13.260. sobran 40min</span></p>
+<p dir="ltr" style="line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial; font-weight: bold; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">221 h y 40 min</span></p>
+</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id727">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">3. Sumar y restar medidas del tiempo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta727_726_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><span style="font-size: 12pt;">Para sumar o restar cantidades debes colocar las horas con las horas , los minutos con los minutos y los segundos con los segundos.</span></p>
+<p><span style="font-size: 12pt;"><img src="Sumas_y_rectas_propia_.png" width="560" height="533" style="display: block; margin-left: auto; margin-right: auto;" alt="Muestra un esquema para sumar y restar unidades de tiempo" title="Sumar y restar medidas de tiempo"></span></p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-3"><h2>Recuerda que para poder hacer una resta, el minuendo debe ser mayor que el sustraendo</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="Terminos_de_la_recta.png" alt="Muestra un esquema con los términos de la recta" width="450" height="152" style="display: block; margin-left: auto; margin-right: auto;" title="Términos de la recta"></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id512">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">¡Te toca a ti!</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta512_627_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="retor_escolares_conbocadillo.gif" alt="Retor presenta" title="Retor dice..." width="125" height="125" style="float: left; margin-right: 10px; margin-left: 10px;"></p>
+<p><span style="font-size: 12pt;">A continuación os presento algunos ejercicios. Elige el o los que mejor sepas hacer.</span></p>
+<p><span style="font-size: 12pt;"> ¡Adelante! ¡Demuestra que estás preparado para pasar a la siguiente fase!</span></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_interactivo" id="id566">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_interactivo.svg)"><h1 class="iDeviceTitle">Opción A: Repasamos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta566_642_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p style="text-align: center;"><iframe width="958" height="520" src="https://blogsaverroes.juntadeandalucia.es/ejerciciosrea/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=1952" allowfullscreen="allowfullscreen"></iframe></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper GeoGebraIdevice em_iDevice em_iDevice_udl_exp_interactivo" id="id731">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_interactivo.svg)"><h1 class="iDeviceTitle">Opción B: Conversión automática</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta731_729_2" class="block iDevice_content">
+<div class="auto-geogebra auto-geogebra-bXAv5V2D auto-geogebra-width-675 auto-geogebra-height-417 language-es ShowAuthor0 auto-geogebra-scale-100"><p><a href="https://www.geogebra.org/m/bXAv5V2D" target="_blank">https://www.geogebra.org/m/bXAv5V2D (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">Javier%20Cayetano%20Rodr%EDguez,https%3A//ggbm.at/4507253,Forma%20compleja%20e%20incompleja%20en%20el%20Sistema%20Sexagesimal,0,Autor%EDa</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_interactivo" id="id743">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_interactivo.svg)"><h1 class="iDeviceTitle">Opción C: La casita</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta743_743_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><span style="font-size: 12pt;">Descompón en la casa del tiempo</span></p>
+<p><span style="font-size: 12pt;">Pincha y arrastra cada número donde corresponda. Comprueba en tu libreta que los cálculos están bien realizados</span></p>
+<p style="text-align: center;"><iframe width="600" height="650" src="https://blogsaverroes.juntadeandalucia.es/ejerciciosrea/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=2031" allowfullscreen="allowfullscreen"></iframe><br><br></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id684">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción D: Pensamos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta684_684_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="Pensando.png" alt="Muestra a alguien pensando" title="Pensando" width="125" height="125" style="float: right; margin-right: 10px; margin-left: 10px;"></p>
+<p><span style="font-size: 12pt;">Copia y resuelve las siguientes situaciones en tu <strong>cuaderno.</strong></span></p>
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li><span style="font-size: 12pt;">Si ayer hice mis tareas en 150 min. ¿Cuántas horas&nbsp; y minutos tardé? </span></li>
+<li><span style="font-size: 12pt;">María ha tardado dos horas y 45 min. en hacer un paseo, ¿En cuántos minutos ha hecho&nbsp; la caminata?&nbsp; </span></li>
+<li><span style="font-size: 12pt;">En una carrera, el ganador ha hecho un tiempo de 1 hora y 20 min. El segundo clasificado ha tardado 15 min. más. ¿Qué tiempo ha tardado?</span></li>
+<li><span style="font-size: 12pt;">María mira en el ordenador cuánto tiempo lleva encendido Marca 24.673seg. ¿Cuantas horas , min y seg lleva encendido?</span></li>
+<li><span style="font-size: 12pt;">Rafael vio el sábado una película que duró 195 minutos y su amiga Paula, una que duró 2 horas y cuarto.&nbsp;&nbsp;</span></li>
+</ol>
+</li>
+<li style="list-style-type: none;">
+<ol>
+<li style="list-style-type: none;"><span style="font-size: 12pt;">¿Cuál de los dos vio la película de mayor duración?</span></li>
+<li style="list-style-type: none;"><span style="font-size: 12pt;">¿Cuánto duró una película más que otra?</span></li>
+<li style="list-style-type: none;"><span style="font-size: 12pt;">¿Cuántas horas duraron las dos películas en total ?</span></li>
+</ol>
+</li>
+</ol></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id697">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción E: Video tutorial</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta697_697_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="ILU_MAT5PRI_REA04_PAG07.png" alt="La imagen muestra a retor con una cámara de video" title="Retor video" width="125" height="95" style="float: left; margin-right: 10px; margin-left: 10px;"></p>
+<p>Realiza un <strong>video tutorial</strong> donde expliques y demuestres la forma incompleja y compleja de la medida del tiempo. También debes hacer referencia a cuando debemos usar una u otra y para que sirve cada una. Puedes ayudarte de Internet para realizar tu investigación. <a href="https://edea.juntadeandalucia.es/bancorecursos/file/331d44a5-1375-4539-a828-c0bbf510ca6c/1/guia_competencia_digital_REA_Andalucia.zip/bsqueda_de_informacin.html" target="_blank" title="Competencia digital" rel="noopener">Accede a la guía de competencia digital.</a></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id732">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">¡Te toca a ti!</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta732_732_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="retor_escolares_conbocadillo.gif" alt="Retor presenta" title="Retor dice..." width="125" height="125" style="float: left; margin-right: 10px; margin-left: 10px;"></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">¿Te gustan estos ejercicios ? Aquí te proponemos otros para que hagas los que desees.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;"> ¡Ánimo! Te ayudarán a estar preparado para la elaboración en grupo de vuestros panel/web. </span></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_interactivo" id="id733">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_interactivo.svg)"><h1 class="iDeviceTitle">Opción A: ¿Te acuerdas?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta733_733_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p style="text-align: center;"><iframe width="958" height="480" src="https://blogsaverroes.juntadeandalucia.es/ejerciciosrea/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=1954" allowfullscreen="allowfullscreen"></iframe><br><br></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id734">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: Sumar tiempos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta734_734_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="cuaderno.png" alt="Muestra un cuaderno" title="Cuaderno" width="125" height="125" style="float: right; margin-right: 10px; margin-left: 10px;"></p>
+<p>Realiza las siguientes sumas y restas en tu <strong>cuaderno</strong>.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<table border="1" style="height: 163px; width: 70%; background-color: #dff2e7; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 163px;">
+<td style="width: 50%; height: 163px;">
+<p><span style="font-size: 12pt;"><strong><span style="font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;">2h 48m + 1h 29 m =</span></strong></span></p>
+<p><span style="font-size: 12pt;"><strong><span style="font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;">43m 25s + 28m 52s=&nbsp;</span><span style="font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;"></span></strong></span></p>
+<p><span style="font-size: 12pt;"><strong><span style="font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;">1h 22m 13s + 1h 38m12s=&nbsp;&nbsp;</span><span style="font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;"></span></strong></span></p>
+<p><span style="font-size: 12pt;"><strong><span style="font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif; font-size: 12pt;">2h 35m 43s + 1h 35m 12s=</span><span style="font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;"></span></strong></span></p>
+</td>
+<td style="width: 50%; height: 163px;">
+<p><span style="font-size: 12pt;"><strong><span style="font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;">3h 13m-1h 45m=</span></strong></span></p>
+<p><span style="font-size: 12pt;"><strong>25m 20s - 18m 33s=</strong></span></p>
+<p><span style="font-size: 12pt;"><strong>2h 42m 20s-1h 30m 33s=</strong></span></p>
+<p><span style="font-size: 12pt;"><strong>2h 15m 22s - 1h 53m 18s=</strong></span></p>
+</td>
+</tr>
+</tbody>
+</table></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id735">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción C: Video Juego</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta735_735_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="Clavis_jugando_videojuego.png" alt="La imagen muestra a clavis jugando a un videojuego" title="Retor video" width="125" height="125" style="float: left; margin-right: 10px; margin-left: 10px;"></p>
+<p><img src="cuaderno.png" alt="Muestra un cuaderno" title="Cuaderno" width="125" height="125" style="float: right; margin-right: 10px; margin-left: 10px;"></p>
+<p>Realiza las siguientes sumas y restas en tu <strong>cuaderno</strong>.&nbsp;</p>
+<table border="1" style="height: 72px; width: 50%; background-color: #d7f5dd; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; height: 18px;"></td>
+<td style="width: 33.3333%; height: 18px; text-align: center; background-color: #8edeae;"><span style="font-size: 12pt;"><strong>Elvira</strong></span></td>
+<td style="width: 33.3333%; height: 18px; text-align: center; background-color: #8edeae;"><span style="font-size: 12pt;"><strong>Jacinto</strong></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; height: 18px;"><span style="font-size: 12pt;"><strong>1º Pantalla</strong></span></td>
+<td style="width: 33.3333%; height: 18px;"><span style="font-size: 12pt;"><strong>27 m 37 s</strong></span></td>
+<td style="width: 33.3333%; height: 18px;"><span style="font-size: 12pt;"><strong>25m 54s</strong></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; height: 18px;"><span style="font-size: 12pt;"><strong>2º Pantalla</strong></span></td>
+<td style="width: 33.3333%; height: 18px;"><span style="font-size: 12pt;"><strong>45m 18s</strong></span></td>
+<td style="width: 33.3333%; height: 18px;"><span style="font-size: 12pt;"><strong>51m 23s</strong></span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.3333%; height: 18px;"><span style="font-size: 12pt;"><strong>3º Pantalla</strong></span></td>
+<td style="width: 33.3333%; height: 18px;"><span style="font-size: 12pt;"><strong>1h 5 m</strong></span></td>
+<td style="width: 33.3333%; height: 18px;"><span style="font-size: 12pt;"><strong>1h 49 s</strong></span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 12pt;">¿Quién ha tardado menos en superar cada pantalla? ¿Cuánto menos?</span></p>
+<p><span style="font-size: 12pt;">¿Quién ha estado más tiempo jugando? ¿Cuánto más?</span></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper GeoGebraIdevice em_iDevice em_iDevice_udl_exp_interactivo" id="id736">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_interactivo.svg)"><h1 class="iDeviceTitle">Opción D: Ruta en bici</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta736_736_2" class="block iDevice_content">
+<div class="auto-geogebra auto-geogebra-JVE7k3zp auto-geogebra-width-675 auto-geogebra-height-417 language-es ShowAuthor0 auto-geogebra-scale-100"><p><a href="https://www.geogebra.org/m/JVE7k3zp" target="_blank">https://www.geogebra.org/m/JVE7k3zp (Ventana nueva)</a></p><div class="auto-geogebra-author js-hidden">Javier%20Cayetano%20Rodr%EDguez,https%3A//ggbm.at/8498087,Duraci%F3n%20de%20una%20ruta%20en%20bici,0,Autor%EDa</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id737">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción E: Lista de reproducción</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta737_737_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="mockup-g657705c5e_640.jpg" alt="La imagen muestra una lista musical" title="Retor video" width="124" height="83" style="float: left; margin-right: 10px; margin-left: 10px;"></p>
+<p>Vas a crear una<strong> lista musical</strong>&nbsp; con tu móvil para escucharla durante los entrenamientos.</p>
+<p>- La suma de las cuatro primeras canciones debe durar entre 10 y 13 minutos.</p>
+<p>- La suma de las 8 primeras canciones no debe superar los 20 min.</p>
+<p>- La lista en total debe tener una duración de 30 minutos aproximadamente.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="41_medidas_de_longitud_y_masa.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>7</strong> de <strong>12</strong></span> <span class="sep">| </span><a href="5_vuestros_diseos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
