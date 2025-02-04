@@ -1,0 +1,63 @@
+﻿1
+00:00:07,800 --> 00:00:09,800
+¡Hola! ¿Qué tal ha ido todo?
+
+2
+00:00:12,600 --> 00:00:14,600
+En este proyecto de aprendizaje...
+
+3
+00:00:14,600 --> 00:00:16,600
+...has recordado conceptos de unidades de medida,...
+
+4
+00:00:19,100 --> 00:00:21,100
+Has salido a observar las actividades deportivas...
+
+5
+00:00:22,100 --> 00:00:24,100
+...que realizan tus vecinos y vecinas.
+
+6
+00:00:25,100 --> 00:00:27,100
+Y por supuesto: trabajando en equipo.
+
+7
+00:00:28,060 --> 00:00:31,100
+Has aprendido a relacionar las unidades de medida y tiempo...
+
+8
+00:00:31,100 --> 00:00:33,100
+...con aspectos deportivos.
+
+9
+00:00:33,100 --> 00:00:35,100
+Así como relacionar la alimentación...
+
+10
+00:00:35,100 --> 00:00:37,100
+y el deporte con el gasto calórico.
+
+11
+00:00:39,860 --> 00:00:41,860
+Todo ello para diseñar vuestro panel/web...
+
+12
+00:00:41,860 --> 00:00:43,860
+...con circuitos deportivos...
+
+13
+00:00:43,860 --> 00:00:45,860
+...para poner en forma a las personas que te rodean.
+
+14
+00:00:48,890 --> 00:00:50,890
+Esperemos que hayas aprendido...
+
+15
+00:00:50,890 --> 00:00:52,890
+...y a la vez te hayas divertido.
+
+16
+00:00:52,890 --> 00:00:54,890
+Hasta otro proyecto de aprendizaje.

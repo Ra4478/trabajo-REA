@@ -1,0 +1,91 @@
+1
+00:00:07,400 --> 00:00:10,400
+¡Hola! Aquí tenéis un nuevo proyecto de aprendizaje.
+
+2
+00:00:10,400 --> 00:00:12,400
+La salud nos importa.
+
+3
+00:00:12,800 --> 00:00:14,400
+¿Comes sano?
+
+4
+00:00:14,400 --> 00:00:16,400
+¿Haces deporte?
+
+5
+00:00:16,400 --> 00:00:18,400
+¿Y tus amigos y amigas?
+
+6
+00:00:18,400 --> 00:00:20,400
+¿Tienen una alimentación saludable?
+
+7
+00:00:20,400 --> 00:00:22,400
+¿Hacen ejercicio?
+
+8
+00:00:22,900 --> 00:00:24,400
+O por el contrario.
+
+9
+00:00:24,400 --> 00:00:26,400
+¿Comes mucha comida basura?
+
+10
+00:00:26,400 --> 00:00:28,400
+¿Te pegas todo el día sentado/a...
+
+11
+00:00:28,400 --> 00:00:30,400
+...y no haces ningún tipo de ejercicio físico?
+
+12
+00:00:34,400 --> 00:00:36,400
+¿Tendrá alguna relación...
+
+13
+00:00:36,400 --> 00:00:38,400
+...la alimentación y el deporte...
+
+14
+00:00:38,400 --> 00:00:40,400
+...en tu estado físico?
+
+15
+00:00:40,400 --> 00:00:42,400
+¿Y en tu salud general?
+
+16
+00:00:42,400 --> 00:00:44,400
+¿Cómo podemos relacionar...
+
+17
+00:00:44,400 --> 00:00:46,400
+las matemáticas con todo esto?
+
+18
+00:00:46,400 --> 00:00:48,400
+¿Serás capaz de poner en forma...
+
+19
+00:00:48,400 --> 00:00:50,400
+...a las personas que te rodean?
+
+20
+00:00:50,400 --> 00:00:52,400
+Todo esto y mucho más...
+
+21
+00:00:52,400 --> 00:00:54,400
+...en un nuevo proyecto de aprendizaje.
+
+22
+00:00:54,400 --> 00:00:56,400
+La salud nos importa.
+
+23
+00:00:56,400 --> 00:00:58,400
+¡Ánimo!
